@@ -1,0 +1,9 @@
+<hibernate-configuration>
+  <session-factory>
+    <!-- Annotated entity classes -->
+    <mapping class="com.example.Payment"/>
+    <mapping class="com.example.WireTransferPayment"/>
+    <mapping class="com.example.CreditCardPayment"/>
+    <mapping class="com.example.Person"/>
+  </session-factory>
+</hibernate-configuration>
